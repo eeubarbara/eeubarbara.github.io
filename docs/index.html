@@ -3,12 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de HTML</title>
+    <title>Baby</title>
 	<style>
-		p {
-			color:green !important;
-			font-size: 30px;
-		}
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -23,7 +19,7 @@
 
 		ul li a {
 			display: block;
-			color: white;
+			color: yellow;
 			text-align: center;
 			padding: 14px 16px;
 			text-decoration: none;
@@ -35,26 +31,36 @@
 	</style>
 </head>
 <body>
-	<ul>
-		<li><a href="default.asp">Home</a></li>
-		<li><a href="contact.asp">Contact</a></li>
-		<li><a href="about.asp">About</a></li>
-	</ul>
-    <h1 style="color: red">Este é um Título Principal</h1>
-    <p style="color: pink">Este é um parágrafo de texto que explica algo importante.</p>
-    <p>Outro parágrafo, para demonstrar a estrutura.</p>
-
-    <h2 style="color:green">Este é um subtítulo</h2>
-    <p>Conteúdo relacionado ao subtítulo acima.</p>
-
-    <!-- Esta é uma imagem: -->
-    <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
-
-    <!-- Esta é uma lista não ordenada: -->
-    <ul>
-        <li>Item 1 da listas</li>
-        <li>Item 2 da lista</li>
-    </ul>
-
+	<header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<main>
+		<div style="display: flex">
+			<div>
+				<img src="assets/profile.jpg" width="300" />
+			</div>
+			
+			<div>
+				<h2>
+					Bárbara Kelly
+				</h2>
+				<span>
+					Estudante
+				</span>
+				<br/>
+				<p>
+					Lorem ipsum ullamcorper vulputate facilisis mi blandit interdum congue faucibus iaculis diam, auctor aliquam laoreet tincidunt conubia imperdiet vehicula neque ut praesent morbi consectetur, phasellus quis ornare torquent aliquam et sociosqu elit tempus lorem. lacus diam sem dictumst velit nisi vestibulum amet luctus, volutpat nisi etiam vivamus laoreet consequat luctus, pellentesque interdum vulputate class volutpat vestibulum venenatis. augue placerat metus lacinia sed ac amet lacus, tempor laoreet nisl pellentesque tempor elit dictumst, mauris euismod pellentesque blandit proin fringilla. suspendisse posuere sollicitudin augue scelerisque lectus varius nostra, duis erat sagittis quisque nostra a platea rutrum, metus curabitur urna hendrerit fames lobortis. 
+				</p>
+			</div>
+		</div>
+	</main>
+   
 </body>
 </html>
